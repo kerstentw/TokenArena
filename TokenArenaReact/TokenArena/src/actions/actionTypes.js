@@ -1,0 +1,12 @@
+export const REGISTER_ADDRESS_TO_API = "REGISTER_ADDRESS_TO_API"
+export const SET_ADDRESS = "SET_ADDRESS"
+export const LOGIN = "LOGIN"
+export const LOGOUT = "LOGOUT"
+export const SIGNUP = "SIGNUP"
+export const REST_ERROR = "REST_ERROR"
+export const LOGIN_REQUEST = "LOGIN_REQUEST"
+export const REGISTER_PORTFOLIO = "REGISTER_PORTFOLIO"
+
+export const REGISTER_ARENA = "SUBMIT_ARENA"
+export const GET_ARENAS = "GET_ARENAS"
+export const JOIN_ARENA = "JOIN_ARENA"
