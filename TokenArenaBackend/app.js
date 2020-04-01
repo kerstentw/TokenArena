@@ -28,6 +28,28 @@ app.get("/", (req,res) => {
   res.json({"msg":"Token Invalid"})
 })
 
+// to-do: Place into Restful App eps
+
+/*
+ * GET Endpoints
+ */
+
+// ALL ARENAS
+app.get("/arenas", (req,res)=>{
+  //TODO: Create Arena Schema
+  //TODO: Build Arena Handler
+    db_client.all_arenas(res)
+})
+
+
+// Get Season Info
+app.get("/season_info", (req,res)=>{
+
+})
+
+/*
+ * POST Endpoints
+ */
 
 // SIGNUP
 app.post("/signup", (req,res) => {
@@ -70,13 +92,6 @@ app.post("/register_arena", (req,res)=>{
     db_client.register_arena(req.body.data, res)
 })
 
-// ALL ARENAS
-app.get("/arenas", (req,res)=>{
-  //TODO: Create Arena Schema
-  //TODO: Build Arena Handler
-    db_client.all_arenas(res)
-})
-
 
 app.post("/join_arena", (req,res) => {
     db_client.join_arena(req.body.data, res)
@@ -91,10 +106,6 @@ app.post("/get_user", (req,res)=>{
 })
 
 
-// Get Season Info
-app.get("/season_info", (req,res)=>{
-
-})
 
 // Turning on Server
 
