@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="container">
-        Copyright Ⓒ TokenClash 2018
+        Copyright Ⓒ TokenArena 2020
       </div>
     </div>
   )
